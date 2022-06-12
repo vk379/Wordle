@@ -1,0 +1,73 @@
+GridView.count(
+        padding: const EdgeInsets.only(left: 600, right: 600, top: 100),
+        crossAxisCount: 5,
+        //childAspectRatio: 1/14,
+        crossAxisSpacing: 5.0,
+        mainAxisSpacing: 0,
+        children: List.generate(25, (index) {
+          return SizedBox(
+              width: 25,
+              child: RawKeyboardListener(
+                focusNode: FocusNode(),
+                onKey: (RawKeyEvent event)
+                  {
+                    if(event.data.logicalKey == LogicalKeyboardKey.backspace && [0,5,10,15,20].contains(index) == false)
+                      {
+                        back = true;
+                        if([4,9,14,19,24].contains(index) == true)
+                        {
+                          FocusScope.of(context).nextFocus();
+                        }
+                        print('Index $index');
+                        //print(_controller);
+                        //_controller[index].text = "";
+                        // print(txtAll[0][index]);
+                        // print(txtAll[0]);
+                        // FocusScope.of(context).nextFocus();
+                        FocusScope.of(context).previousFocus();
+                        FocusScope.of(context).previousFocus();
+                      }
+                    print(" ");
+                    back = false;
+                  },
+                child: TextField(
+                    maxLength: 1,
+                    onChanged: (value)
+                    {
+                      if([4,9,14,19,24].contains(index) == false && back == false)
+                        {
+                          //_controller[index].text = "Hello";
+                          print(value);
+                          print('Index $index');
+                          FocusScope.of(context).nextFocus();
+                          FocusScope.of(context).nextFocus();
+                          // FocusScope.of(context).nextFocus();
+                          // FocusScope.of(context).nextFocus();
+                        }
+                    },
+                    autofocus: false,
+                    cursorHeight: 0.0,
+                    cursorWidth: 0.0,
+                    controller:  _controller[index],
+                    style: const TextStyle(
+                      fontSize: 25.0,
+                      height:1.0,
+                      color: Colors.white,
+                    ),
+                    decoration: const InputDecoration(
+                      counterText: "",
+                      contentPadding: EdgeInsets.all(10.0),
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      hintText: '',
+                  ),
+                ),
+              ),
+            );
+        }
+        ),
+      ),

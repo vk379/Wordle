@@ -1,0 +1,299 @@
+Column(
+          children:[
+            Row(
+            children:[
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  padding: const EdgeInsets.all(10),
+                  width: 80,
+                  height: 600,
+                  child: TextField(
+                    autofocus: true,
+                    cursorHeight: 0.0,
+                    cursorWidth: 0.0,
+                    controller: txt,
+                    style: const TextStyle(
+                      fontSize: 40.0,
+                      height:1.0,
+                      color: Colors.white,
+                    ),
+                    decoration: const InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      hintText: '',
+                    ),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  padding: const EdgeInsets.all(10),
+                  width: 80,
+                  height: 600,
+                  child: TextField(
+                    autofocus: true,
+                    cursorHeight: 0.0,
+                    cursorWidth: 0.0,
+                    controller: txtTwo,
+                    style: const TextStyle(
+                      fontSize: 40.0,
+                      height:1.0,
+                      color: Colors.white,
+                    ),
+                    decoration: const InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      hintText: '',
+                    ),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  padding: const EdgeInsets.all(10),
+                  width: 80,
+                  height: 600,
+                  child: TextField(
+                    autofocus: true,
+                    cursorHeight: 0.0,
+                    cursorWidth: 0.0,
+                    controller: txtThree,
+                    style: const TextStyle(
+                      fontSize: 40.0,
+                      height:1.0,
+                      color: Colors.white,
+                    ),
+                    decoration: const InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      hintText: '',
+                    ),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  padding: const EdgeInsets.all(10),
+                  width: 80,
+                  height: 600,
+                  child: TextField(
+                    autofocus: true,
+                    cursorHeight: 0.0,
+                    cursorWidth: 0.0,
+                    controller: txtFour,
+                    style: const TextStyle(
+                      fontSize: 40.0,
+                      height:1.0,
+                      color: Colors.white,
+                    ),
+                    decoration: const InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      hintText: '',
+                    ),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  padding: const EdgeInsets.all(10),
+                  width: 80,
+                  height: 600,
+                  child: TextField(
+                    autofocus: true,
+                    cursorHeight: 0.0,
+                    cursorWidth: 0.0,
+                    controller: txtFive,
+                    style: const TextStyle(
+                      fontSize: 40.0,
+                      height:1.0,
+                      color: Colors.white,
+                    ),
+                    decoration: const InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Colors.white, width: 1.0),
+                      ),
+                      hintText: '',
+                    ),
+                  ),
+                ),
+              ),
+            ],
+            mainAxisAlignment: MainAxisAlignment.center,
+          ),
+            Row(
+              children:[
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    width: 80,
+                    height: 600,
+                    child: TextField(
+                      autofocus: true,
+                      cursorHeight: 0.0,
+                      cursorWidth: 0.0,
+                      controller: txt,
+                      style: const TextStyle(
+                        fontSize: 40.0,
+                        height:1.0,
+                        color: Colors.white,
+                      ),
+                      decoration: const InputDecoration(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        hintText: '',
+                      ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    width: 80,
+                    height: 600,
+                    child: TextField(
+                      autofocus: true,
+                      cursorHeight: 0.0,
+                      cursorWidth: 0.0,
+                      controller: txtTwo,
+                      style: const TextStyle(
+                        fontSize: 40.0,
+                        height:1.0,
+                        color: Colors.white,
+                      ),
+                      decoration: const InputDecoration(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        hintText: '',
+                      ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    width: 80,
+                    height: 600,
+                    child: TextField(
+                      autofocus: true,
+                      cursorHeight: 0.0,
+                      cursorWidth: 0.0,
+                      controller: txtThree,
+                      style: const TextStyle(
+                        fontSize: 40.0,
+                        height:1.0,
+                        color: Colors.white,
+                      ),
+                      decoration: const InputDecoration(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        hintText: '',
+                      ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    width: 80,
+                    height: 600,
+                    child: TextField(
+                      autofocus: true,
+                      cursorHeight: 0.0,
+                      cursorWidth: 0.0,
+                      controller: txtFour,
+                      style: const TextStyle(
+                        fontSize: 40.0,
+                        height:1.0,
+                        color: Colors.white,
+                      ),
+                      decoration: const InputDecoration(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        hintText: '',
+                      ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    width: 80,
+                    height: 600,
+                    child: TextField(
+                      autofocus: true,
+                      cursorHeight: 0.0,
+                      cursorWidth: 0.0,
+                      controller: txtFive,
+                      style: const TextStyle(
+                        fontSize: 40.0,
+                        height:1.0,
+                        color: Colors.white,
+                      ),
+                      decoration: const InputDecoration(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white, width: 1.0),
+                        ),
+                        hintText: '',
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+              mainAxisAlignment: MainAxisAlignment.center,
+            ),
+
+
+
+
+
+          ]
+        ),

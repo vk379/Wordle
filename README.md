@@ -1,8 +1,6 @@
 # Wordle 
 A recreation of the Classic Wordle game created Originally by the New York Times. 
-
 Can be replayed as many times as you'd like! 
-
 None of that 24 Hour Time Limit here :) 
 
 Installation Info: 
